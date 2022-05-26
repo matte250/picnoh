@@ -1,0 +1,6 @@
+{
+	"appId": "com.obilocus.picnoh",
+	"appName": "Picnoh",
+	"webDir": "public",
+	"bundledWebRuntime": false
+}
