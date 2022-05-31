@@ -24,10 +24,23 @@ import Landing from "./pages/Landing.svelte";
 	}
 
 	body {
+		font-size: 1em;
 		background-color: var(--white);
 	}
 
+	@media (min-width: 600px) and (min-height: 600px) {
+		body  {
+			font-size: 1.5em;
+		}
+	}
+
 	h1 { 
+        font-family: Josefin Sans;
+        color: var(--action);
+		margin: 0;
+	}
+
+	h2 { 
         font-family: Josefin Sans;
         color: var(--action);
 		margin: 0;

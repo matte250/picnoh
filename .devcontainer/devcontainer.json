@@ -28,5 +28,6 @@
 	"remoteUser": "node",
 	"features": {
 		"git": "latest"
-	}
+	},
+	"forwardPorts": [8080]
 }
